@@ -319,7 +319,7 @@ def main():
     
     # Load data
     try:
-        master_costs_df = load_and_prepare_healthcare_data('insurance_dataset.xlsx')
+        master_costs_df = load_and_prepare_healthcare_data('impact_valuation_tool/insurance_dataset.xlsx')
         cost_model = HealthcareCostModel(master_costs_df)
         impact_tool = ImpactTool(cost_model)
     except Exception as e:
@@ -1065,3 +1065,4 @@ DETAILED BREAKDOWN BY CONDITION
 
 if __name__ == '__main__':
     main()
+
