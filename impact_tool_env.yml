@@ -1,0 +1,11 @@
+name: impact_tool_env_v1
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - plotly
+  - streamlit
+  - typing-extensions
